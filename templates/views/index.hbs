@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/app-icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="page-content">
+        {{>header}}
+        <p>Get weather forecast from the world</p>
+        <form>
+            <input type="text" placeholder="Location">
+            <button type="submit">Search</button>
+            <p id="location-template"></p>
+            <p id="forecast-template"></p>
+        </form>
+    </div>
+    {{>footer}}
+</body>
+<script src="js/app.js"></script>
+</html>
